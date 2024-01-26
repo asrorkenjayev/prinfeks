@@ -1,0 +1,9 @@
+srt=input("string kiriting: ")
+text=srt.split()
+srt1=[]
+for i in range(len(text)):
+    if i==0 or i==len(text)-1:
+        srt1.append(text[i][::-1])
+    else: 
+        srt1.append(text[i])
+print(*srt1)

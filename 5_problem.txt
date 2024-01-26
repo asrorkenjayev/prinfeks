@@ -1,0 +1,11 @@
+def func(str):
+    str=str.split()
+    print(str)
+    for i in range(len(str)):
+        if str[i][0]=='K':
+            print(str[i])
+
+str=input("string kiriting: ")
+func(str)
+
+

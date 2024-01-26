@@ -1,0 +1,11 @@
+file=open("fayl1.txt","r")
+file1=open("juft.txt","w")
+file2=open("toq.txt","w")
+
+text=file.read()
+text1=text.split()
+for i in text1:
+    if len(i)%2:
+        file2.write(i+" ")
+    else:
+        file1.write(i+" ")
